@@ -1,0 +1,64 @@
+@font-face{
+	font-family: "police";
+	src: url('https://fonts.google.com/?selection.family=Source+Sans+Pro');
+}
+body{
+	background-color: black;
+}
+#containeur{
+	background-color: black;
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#colone1{
+	background-color: #303030;
+	color: white;
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	width: 200px;
+}
+#image1{
+	border-radius: 40px;
+}
+#colone2{
+	background-color: white;
+	text-align: center;
+	flex-flow: column;
+	padding: 30px 20px 30px 10px;
+	width: 900px;
+}
+h1{
+	text-align: center;
+	font-size: 33px;
+}
+#titre1{
+	border-top: 1px solid black;
+}
+#titre2{
+	border-top: 1px solid black;
+}
+#titre3{
+	border-top: 1px solid black;
+}
+#titre4{
+	border-top: 1px solid black;
+}
+#titre5{
+	border-top: 1px solid black;
+}
+h2{
+	font-size: 15px;
+}
+p{
+	font-size: 12px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+#colone2 a{
+	color: black;
+}
